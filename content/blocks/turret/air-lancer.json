@@ -1,0 +1,36 @@
+{
+    "type": "TractorBeamTurret",
+    "name": "Air Lancer",
+    "description": "Upgraded Parallax. Does more damage to targets at cost of power",
+    "health": 360,
+    "requirements":
+	[
+        {
+			"item": "graphite",
+			"amount": 100
+		},
+		{
+			"item": "titanium",
+			"amount": 150
+		},
+        {
+			"item": "silicon",
+			"amount": 180
+		}
+    ],
+	"consumes":
+	{
+		"power": 3.3,
+	},
+    "size": 2,
+    "category": "turret",
+	"outputsPower": false,
+	"consumesPower": true,
+	"hasPower": true,
+	"damage": 1,
+	"rotateSpeed":10,
+	"range": 240,
+	"force": 0,
+	"scaledForce": 0,
+    "research": "parallax"
+}

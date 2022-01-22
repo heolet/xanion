@@ -1,0 +1,90 @@
+{
+    "type": "ItemTurret",
+    "name": "Sniper",
+    "description": "Sniper",
+    "health": 500,
+    "requirements":
+	[
+        {
+			"item": "copper",
+			"amount": 100
+		},
+        {
+			"item": "lead",
+			"amount": 75
+		}
+		{
+			"item": "graphite",
+			"amount": 50
+		}
+    ],
+	"ammoTypes":
+	{
+		"copper":
+		{
+			"type": "BasicBulletType",
+			"lifetime": 10,
+			"speed": 60,
+			"ammoMultiplier": 1,
+			"width": 15,
+			"height": 30,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"damage": 90,
+		},
+		"graphite":
+		{
+			"type": "BasicBulletType"
+			"lifetime": 10,
+			"speed": 60,
+			"ammoMultiplier": 1,
+			"width": 15,
+			"height": 30,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"damage": 180,
+		},
+		"silicon":
+		{
+			"type": "BasicBulletType"
+			"lifetime": 10,
+			"speed": 60,
+			"ammoMultiplier": 1,
+			"width": 15,
+			"height": 30,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"damage": 120,
+			"homingPower": 0.1,
+			"homingRange": 500,
+		},
+		"pyratite":
+		{
+			"type": "BasicBulletType"
+			"lifetime": 10,
+			"speed": 60,
+			"ammoMultiplier": 1,
+			"width": 15,
+			"height": 30,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"damage": 110,
+			"status": "burning"
+		},
+	},
+    "size": 4,
+	"shootSound": "shootBig",
+	"coolantMultiplier": 20
+	"hasItems": true,
+	"hasLiquids": true,
+    "itemCapacity": 20,
+    "reloadTime": 120,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	"shots": 1,
+	"inaccuracy": 0
+    "range": 500,
+    "category": "turret",
+	"rotateSpeed": 5,
+    "research": "duo"
+}

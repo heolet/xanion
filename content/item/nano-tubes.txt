@@ -1,0 +1,13 @@
+{
+	"type": "material",
+	"cost": 2.5,
+	"color": "858585",
+	"research": {
+		"parent" : "graphite",
+		"requirements":[
+			{ "item": "graphite", "amount": 2000 },
+			{ "item": "coal", "amount": 8000 }
+		]
+	},
+	"hardness": 0
+}

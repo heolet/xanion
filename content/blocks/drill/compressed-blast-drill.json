@@ -1,0 +1,51 @@
+{
+    "type": "Drill",
+	"name": "Compressed Blast Drill",
+    "size": 4,
+    "tier": 5,
+	"health": 5760,
+    "drillTime": 7.8,
+    "warmupSpeed": 0.05,
+    "rotateSpeed": 5,
+	"consumes":
+	{
+		"power": 27,
+		"liquid":
+		{
+			"liquid": "water",
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+    "liquidBoostIntensity": 2,
+	"drawRim": true,
+	"hasPower": true,
+	"hasLiquids": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+	"liquidCapacity": 30,
+	"updateEffect": "smeltsmoke",
+	"requirements":
+	[
+        {
+			"item": "copper",
+			"amount": 585
+		},
+		{
+			"item": "titanium",
+			"amount": 450
+		},
+		{
+			"item": "thorium",
+			"amount": 675
+		},
+		{
+			"item": "silicon",
+			"amount": 540
+		}
+	],
+	"buildCostMultiplier": 0.5,
+	"category": "production",
+	"research": "blast-drill"
+}

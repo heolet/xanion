@@ -1,0 +1,30 @@
+{
+   	"type": "MassDriver",
+   	"name": "Teleporter",
+   	"description": "The ultimate item transport block, a Teleporter",
+   	"health": 500,
+   	"requirements": 
+	[
+       	{
+			"item": "lead",
+			"amount": 100
+		},
+		{
+			"item": "copper",
+			"amount": 100
+		}
+	],
+	"size": 1,
+	"hasPower": false,
+   	"itemCapacity": 250,
+	"activeSoundVolume": 0.1,
+	"idleSoundVolume": 0.1,
+   	"reloadTime": 1,
+   	"range": 2000,
+	"bulletSpeed": 100,
+	"bulletLifetime": 400,
+   	"category": "distribution",
+	"buildCostMultiplier": 0.5,
+	"rotateSpeed": 360,
+    "research": "router"
+}

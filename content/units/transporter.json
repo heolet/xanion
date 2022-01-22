@@ -1,0 +1,44 @@
+{
+"localizedName": "Transporter",
+"description": "Units for transporting item",
+"commandLimit": 4,
+"speed": 50,
+"drag": 1,
+"accel": 0.2,
+"rotateSpeed": 360,
+"health": 200,
+"armor": 8,
+"range": 1600,
+"maxRange": 80,
+"itemCapacity": 100,
+"buildSpeed": 100,
+"mineTier": 5,
+"mineSpeed": 50,
+"aimDst": 12,
+"hitSize": 1,
+"rotateShooting": false,
+"fallThrusterEffect": "coreBurn",
+"lowAltitude": false,
+"circleTarget": true,
+"omniMovement": true,
+"destructibleWreck": false,
+"engineOffset": 5,
+"engineSize": 2,
+"flying": true,
+"trailLength": 0,
+"trailX": 0,
+"trailY": 0,
+"trailScl": 0,
+"weapons":[],
+"research":
+	{
+	"parent": "air-factory"
+	"requirements":
+		[
+		{
+		"item": "copper",
+		"amount": 1000
+		}
+		]
+	}
+}		

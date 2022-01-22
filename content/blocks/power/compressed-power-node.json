@@ -1,0 +1,16 @@
+{
+    "type": "PowerNode",
+    "name": "Compressed Power Node",
+    "description": "Power Node times 9 in one single block",
+    "health": 360,
+    "requirements": [
+        {"item": "copper", "amount": 9},
+        {"item": "lead", "amount": 27}
+    ],
+    "size": 1,
+    "category": "power",
+	"maxNodes": "90",
+	"buildCostMultiplier": 0.5,
+	"laserRange": "10",
+    "research": "power-node"
+}

@@ -1,0 +1,28 @@
+{
+    "type": "PowerSource",
+    "name": "Wind Turbine",
+    "description": "A nice way to start with power.",
+    "size": 2,
+	"health": 420
+    "hasPower": true,
+	"outputsPower": true,
+	"consumesPower": false,
+    "powerProduction": 2,
+	"configurable": false,
+	"canOverdrive": true,
+	"maxNodes": 100,
+	"laserRange": 0,
+    "requirements":
+	[
+        {
+			"item": "copper",
+			"amount": 100
+		},
+        {
+			"item": "lead",
+			"amount": 20
+		},
+    ],
+    "category": "power",
+	"research": "power-node"
+}

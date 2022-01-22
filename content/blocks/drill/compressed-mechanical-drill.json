@@ -1,0 +1,32 @@
+{
+    "type": "Drill",
+	"name": "Compressed Mechanical Drill",
+    "size": 2,
+    "tier": 2,
+    "drillTime": 66.6,
+    "warmupSpeed" : 0.05,
+    "rotateSpeed" : 5,
+	"buildCostMultiplier": 0.5,
+	"consumes":
+	{
+		"liquid":
+		{
+			"liquid": "water",
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+    "liquidBoostIntensity" : 2,
+	"hasPower": false,
+	"hasLiquids": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+	"liquidCapacity": 30,
+	"updateEffect": "smeltsmoke",
+	"requirements": [
+        { "item": "copper", "amount": 108}
+	],
+	"category": "production",
+	"research": "mechanical-drill"
+}

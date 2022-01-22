@@ -1,0 +1,19 @@
+{
+    "type": "Battery",
+	"name": "Compressed Battery"
+    "category": "power",
+    "buildVisibility": "shown",
+    "size": 1,
+    "health": 360,
+    "emptyLightColor": "#f8c166",
+    "fullLightColor": "#fb9567",
+    "consumes": {
+        "powerBuffered": 36000
+    },
+    "requirements": [
+	{"item": "lead", "amount": 180},
+    {"item": "copper", "amount": 45}
+	],
+	"buildCostMultiplier": 0.5,
+    "research": "battery"
+}

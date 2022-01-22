@@ -1,0 +1,37 @@
+{
+	"type": "LaunchPad",
+	"name": "Mini Launch Pad"
+	"itemCapacity": 5,
+	"size": 1,
+	"launchTime": 60,
+	"health": 100,
+	"lightColor": "#eab678",
+	"podEngineColor": "#ccffff",
+	"buildCostMultiplier": 1,
+	"researchCostMultiplier": 1,
+	"consumes":
+	{
+  		power: 2
+	},
+	"requirements": 
+	[
+  		{
+		"item": "copper",
+		"amount": 200
+		}
+  		{
+		"item": "lead",
+		"amount": 100
+		}
+  		{
+		"item": "titanium",
+		"amount": 50
+		}
+  		{
+		"item": "silicon",
+		"amount": 50
+		}
+	],
+	"category": "effect",
+	"research": "launch-pad"
+}

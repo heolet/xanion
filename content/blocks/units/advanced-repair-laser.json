@@ -1,0 +1,22 @@
+{
+    "type": "RepairPoint",
+    "name": "Advanced Repair Laser",
+    "description": "Just upgrade version of repair point",
+    "health": 360,
+    "requirements": [
+        {"item": "copper", "amount": 30},
+		{"item": "lead", "amount": 30},
+        {"item": "silicon", "amount": 30}
+    ],
+	"consumes": {
+		"power": 2,
+	},
+    "size": 2,
+    "category": "units",
+	"outputsPower": false,
+	"consumesPower": true,
+	"hasPower": true,
+	"repairRadius": 150,
+	"repairSpeed": 1,
+	"research": "repair-point"
+}

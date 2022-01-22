@@ -1,0 +1,51 @@
+{
+	"type": "OverdriveProjector",
+	"name": "Overclocker"
+	"size": 3,
+	"health": 200,
+	"hasPower": true,
+	"range": 100,
+	"speedBoost": 2,
+	"phaseRangeBoost": 10,
+	"speedBoostPhase": 1,
+	"category": "effect",
+	"canOverdrive": false,
+	"solid": true,
+	"requirements":
+	[
+		{
+			"item": "lead",
+			"amount": 100
+		},
+		{
+			"item": "titanium",
+			"amount": 50
+		},
+		{
+			"item": "copper",
+			"amount": 175
+		},
+		{
+			"item": "silicon",
+			"amount": 75
+		}
+	],
+	"consumes":
+	{
+		"items":
+		{
+			"items":
+			[
+				{
+					"item": "phase-fabric",
+					"amount": 1
+				}
+			],
+			"booster": true,
+			"optional": true
+		},
+		"power": 2,
+	},
+	"research": "power-node",
+	"color": "F2A7C2"
+}

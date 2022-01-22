@@ -1,0 +1,16 @@
+{
+    "type": "ItemBridge",
+    "name": "Extended Bridge Conveyor",
+    "description": "Extended version of Bridge Conveyor. you need that extra range",
+    "health": 250,
+    "requirements": [
+        {"item": "copper", "amount": 18},
+        {"item": "lead", "amount": 18}
+    ],
+    "range": 12,
+    "transportTime": 4,
+    "hasPower": false,
+    "category": "distribution",
+    "research": "bridge-conveyor",
+	"buildCostMultiplier": 0.5
+}

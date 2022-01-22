@@ -1,0 +1,112 @@
+{
+    "type": "ItemTurret",
+    "name": "Altillery",
+    "description": "Altillery",
+    "health": 500,
+    "requirements":
+	[
+        {
+			"item": "copper",
+			"amount": 100
+		},
+        {
+			"item": "lead",
+			"amount": 75
+		},
+		{
+			"item": "titanium",
+			"amount": 100
+		},
+		{
+			"item": "silicon",
+			"amount": 50
+		}
+    ],
+	"ammoTypes":
+	{
+		"lead":
+		{
+			"type": "MissileBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"ammoMultiplier": 1,
+			"width": 10,
+			"height": 20,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"hitEffect": "blastExplosion",
+			"damage": 45,
+			"splashDamageRadius": 20,
+			"splashDamage": 90,
+			"homingPower": 0,
+			"homingRange": 0,
+		},
+		"titanium":
+		{
+			"type": "MissileBulletType"
+			"lifetime": 100,
+			"speed": 10,
+			"ammoMultiplier": 1,
+			"width": 10,
+			"height": 20,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"hitEffect": "blastExplosion",
+			"damage": 90,
+			"splashDamageRadius": 20,
+			"splashDamage": 180,
+			"homingPower": 0,
+			"homingRange": 0,
+		},
+		"silicon":
+		{
+			"type": "MissileBulletType"
+			"lifetime": 100,
+			"speed": 10,
+			"ammoMultiplier": 1,
+			"width": 10,
+			"height": 20,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"hitEffect": "blastExplosion",
+			"damage": 60,
+			"splashDamageRadius": 20,
+			"splashDamage": 120,
+			"homingPower": 0.1,
+			"homingRange": 500,
+		},
+		"pyratite":
+		{
+			"type": "MissileBulletType"
+			"lifetime": 100,
+			"speed": 10,
+			"ammoMultiplier": 1,
+			"width": 10,
+			"height": 20,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"hitEffect": "blastExplosion",
+			"damage": 55,
+			"splashDamageRadius": 40,
+			"splashDamage": 110,
+			"status": "burning"
+			"homingPower": 0,
+			"homingRange": 0,
+		},
+	},
+    "size": 4,
+	"shootSound": "missile",
+	"coolantMultiplier": 20
+	"hasItems": true,
+	"hasLiquids": true,
+    "itemCapacity": 20,
+    "reloadTime": 480,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	"shots": 1,
+	"inaccuracy": 0
+    "range": 900,
+    "category": "turret",
+	"rotateSpeed": 2,
+    "research": "sniper"
+}

@@ -1,0 +1,40 @@
+{
+	"type": "LogicBlock",
+	"name": "Super Processor"
+	"size": 2,
+	"health": 1000,
+	"buildCostMultiplier": 1,
+	"researchCostMultiplier": 1,
+	"instructionsPerTick": 100,
+	"range": 300,
+	"consumes":
+	{
+  		power: 2
+	},
+	"requirements": 
+	[
+  		{
+		"item": "copper",
+		"amount": 240
+		},
+  		{
+		"item": "lead",
+		"amount": 520
+		},
+  		{
+		"item": "graphite",
+		"amount": 60
+		},
+  		{
+		"item": "silicon",
+		"amount": 180
+		},
+  		{
+		"item": "thorium",
+		"amount": 50
+		},
+
+	],
+	"category": "logic",
+	"research": "logic-processor"
+}

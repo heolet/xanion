@@ -1,0 +1,18 @@
+{
+	"name": "Hardened Liquid Bridge",
+	"description": "Hardened version of normal bridge conduit.",
+	"type": "LiquidBridge",
+	"canOverdrive": true",
+	"health": 320,
+	"size": 1,
+	"range": 12,
+	"buildCostMultiplier": 0.5,
+	"liquidCapacity": 20,
+	"requirements": 
+	[
+		{"item": "metaglass", "amount": 24},
+        {"item": "graphite", "amount": 12}
+	]
+	"category": "liquid"
+	"research": "bridge-conduit"
+}
